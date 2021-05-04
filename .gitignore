@@ -33,6 +33,8 @@ ipython_config.py
 # Environments
 env/
 myenv
+*dbdata
+/dbdata
 # Media and Static directories
 /media/
 !/media/.gitkeep
@@ -40,4 +42,4 @@ myenv
 !/static/.gitkeep
 # Secrets
 secrets.json
-admin/.dbdata/mysql/
+.admin/.dbdata/mysql/
